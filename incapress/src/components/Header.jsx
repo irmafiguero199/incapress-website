@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import { Menu, X, MapPin, Mail, Phone, BadgeCheck, Heart } from 'lucide-react'
+import { Menu, X, MapPin, Mail, Phone, BadgeCheck } from 'lucide-react'
 import { ORG, NAV_LINKS } from '../data/org.js'
 
 const linkCls = ({ isActive }) =>
@@ -57,23 +57,9 @@ export default function Header() {
                 {l.label}
               </NavLink>
             ))}
-            <Link
-              to="/donate"
-              className="ml-3 inline-flex items-center gap-2 rounded-full bg-sun-500 px-5 py-2.5 text-sm font-bold text-ocean-950 transition hover:bg-sun-400"
-            >
-              <Heart className="h-4 w-4" aria-hidden="true" />
-              Donate
-            </Link>
           </nav>
 
           <div className="flex items-center gap-2 xl:hidden">
-            <Link
-              to="/donate"
-              className="inline-flex items-center gap-2 rounded-full bg-sun-500 px-4 py-2 text-sm font-bold text-ocean-950"
-            >
-              <Heart className="h-4 w-4" aria-hidden="true" />
-              Donate
-            </Link>
             <button
               type="button"
               onClick={() => setOpen(!open)}
