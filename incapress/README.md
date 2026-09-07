@@ -6,7 +6,7 @@ distributes free educational books and runs literacy programs for children and
 families across mid-Missouri.
 
 - **Live site:** https://incapress.sbs
-- **Email:** admin@incapress.sbs
+- **Email:** contact@incapress.sbs
 - **Address:** 309 Defoe Dr, Columbia, MO 65203-0209
 
 ## Tech Stack
