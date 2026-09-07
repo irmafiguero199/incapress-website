@@ -15,7 +15,7 @@ export const ORG = {
     zip: '65203-0209',
     country: 'United States',
   },
-  email: 'admin@incapress.sbs',
+  email: 'contact@incapress.sbs',
   phone: '(573) 555-0142',
   phoneHref: '+15735550142',
   domain: 'https://incapress.sbs',
@@ -228,7 +228,7 @@ export const NEWS_ARTICLES = [
   { date: 'January 12, 2026', category: 'Governance',
     title: 'Inca Press publishes its 2025 annual report and financial summary',
     excerpt: 'The report details program outcomes, reviewed financials, and the organization’s Form 990 filing, available on the Registration Information page.',
-    body: 'Inca Press released its 2025 annual report, covering 19,800 books distributed, 96 funded classrooms, and a volunteer network of 340. The report includes a summary of the organization’s IRS Form 990 filing, board meeting minutes, and financial statements reviewed by an independent CPA. Copies are available by request at admin@incapress.sbs and a summary is posted on this website’s Registration Information page.' },
+    body: 'Inca Press released its 2025 annual report, covering 19,800 books distributed, 96 funded classrooms, and a volunteer network of 340. The report includes a summary of the organization’s IRS Form 990 filing, board meeting minutes, and financial statements reviewed by an independent CPA. Copies are available by request at contact@incapress.sbs and a summary is posted on this website’s Registration Information page.' },
 ]
 
 export const GALLERY_ITEMS = [
