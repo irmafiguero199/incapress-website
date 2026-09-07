@@ -29,10 +29,10 @@ export const ORG = {
   population: 'Children ages 0–18 and their families, educators, and adult learners in under-resourced communities',
   serviceArea: 'Columbia and Boone County, Missouri, with outreach across mid-Missouri',
   social: {
-    facebook: 'https://www.incapress.sbs',
-    instagram: 'https://www.incapress.sbs',
-    twitter: 'https://www.incapress.sbs',
-    linkedin: 'https://www.incapress.sbs',
+    facebook: 'https://www.facebook.com/incapress',
+    instagram: 'https://www.instagram.com/incapress',
+    twitter: 'https://www.x.com/incapress',
+    linkedin: 'https://www.linkedin.com/company/incapress',
   },
 }
 
