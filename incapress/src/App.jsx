@@ -27,7 +27,6 @@ export default function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
         <Route path="terms-of-service" element={<TermsOfService />} />
-        <Route path="donate" element={<Donate />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="news" element={<News />} />
         <Route path="registration-information" element={<RegistrationInformation />} />
