@@ -1,13 +1,6 @@
 import { Link } from 'react-router-dom'
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react'
+import { Mail, Phone, MapPin } from 'lucide-react'
 import { ORG, ADDRESS_LINE, NAV_LINKS, PROGRAMS } from '../data/org.js'
-
-const socials = [
-  { icon: Facebook, label: 'Facebook', href: ORG.social.facebook },
-  { icon: Instagram, label: 'Instagram', href: ORG.social.instagram },
-  { icon: Twitter, label: 'X (Twitter)', href: ORG.social.twitter },
-  { icon: Linkedin, label: 'LinkedIn', href: ORG.social.linkedin },
-]
 
 export default function Footer() {
   return (
@@ -28,26 +21,12 @@ export default function Footer() {
             <p className="mt-2 text-sm text-ocean-200">
               Founded {ORG.founded} &middot; Incorporated in {ORG.stateOfIncorporation}
             </p>
-            <div className="mt-5 flex gap-3">
-              {socials.map(({ icon: Icon, label, href }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={'Inca Press on ' + label}
-                  className="rounded-full bg-ocean-800 p-2.5 text-ocean-100 transition hover:bg-sun-500 hover:text-ocean-950"
-                >
-                  <Icon className="h-4 w-4" aria-hidden="true" />
-                </a>
-              ))}
-            </div>
           </div>
 
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-sun-400">Explore</h3>
             <ul className="mt-4 space-y-2.5 text-sm">
-              {[...NAV_LINKS, { to: '/donate', label: 'Donate' }].map((l) => (
+              {NAV_LINKS.map((l) => (
                 <li key={l.to}>
                   <Link to={l.to} className="text-ocean-200 transition hover:text-white">
                     {l.label}
