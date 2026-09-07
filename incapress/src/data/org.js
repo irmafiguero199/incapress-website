@@ -30,9 +30,9 @@ export const ORG = {
   serviceArea: 'Columbia and Boone County, Missouri, with outreach across mid-Missouri',
   social: {
     facebook: 'https://www.incapress.sbs',
-    instagram: 'https://www.instagram.com/incapress',
-    twitter: 'https://x.com/incapress',
-    linkedin: 'https://www.linkedin.com/company/inca-press',
+    instagram: 'https://www.incapress.sbs',
+    twitter: 'https://www.incapress.sbs',
+    linkedin: 'https://www.incapress.sbs',
   },
 }
 
