@@ -1,0 +1,18 @@
+{
+  "name": "Inca Press",
+  "short_name": "Inca Press",
+  "description": "Inca Press is a 501(c)(3) nonprofit publishing and distributing free educational books across mid-Missouri. EIN 93-3263220.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b182f",
+  "theme_color": "#0b182f",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
