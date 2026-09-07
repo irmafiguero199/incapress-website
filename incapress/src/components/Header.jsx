@@ -47,7 +47,11 @@ export default function Header() {
       <div className="bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-8xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
           <Link to="/" className="flex items-center gap-3" aria-label="Inca Press home">
-            <img src="/logo.svg" alt="Inca Press logo" className="h-10 w-10" />
+            <img 
+              src="https://i.ibb.co/rKFLQFHJ/logo.png" 
+              alt="Inca Press logo" 
+              className="h-10 w-auto rounded-md object-contain" 
+            />
             <span className="font-display text-2xl font-bold text-ocean-950">Inca Press</span>
           </Link>
 
