@@ -25,8 +25,8 @@ export default function Hero({ stats }) {
             programs that help children and families across mid-Missouri put them to work.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <Link to="/donate" className="btn-primary">
-              Support Our Work
+            <Link to="/contact" className="btn-primary">
+              Contact Us
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
             <Link to="/programs" className="btn-secondary">
